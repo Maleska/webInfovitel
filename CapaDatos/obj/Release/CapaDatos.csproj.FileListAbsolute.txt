@@ -1,0 +1,8 @@
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaDatos\bin\Release\CapaDatos.dll
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaDatos\bin\Release\CapaDatos.pdb
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaDatos\bin\Release\CapaModelos.dll
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaDatos\bin\Release\CapaModelos.pdb
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaDatos\obj\Release\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaDatos\obj\Release\CapaDatos.csproj.CopyComplete
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaDatos\obj\Release\CapaDatos.dll
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaDatos\obj\Release\CapaDatos.pdb

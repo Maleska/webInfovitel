@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#"><span style="font-size:large;font-weight:bold">Infovitel ></span></a></li>
+        <li class="breadcrumb-item active" aria-current="page"><label id="lblMenu"></label> </li>
+    </ol>
+</nav>
+<section id="secPersonalData">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <span style="font-weight:bold">Datos personales</span>
+                </div>
+                <div class="card-body">
+                    <span>Nombre</span>
+                    <input type="text" id="txbNombre" class="form-control" placeholder="Nombre(s)" />
+                    <hr />
+                    <span>Apellido paterno</span>
+                    <input type="text" id="txbApellidoP" class="form-control" placeholder="Apellido paterno" />
+                    <hr />
+                    <span>Apellido materno</span>
+                    <input type="text" id="txbApellidoM" class="form-control" placeholder="Apellido materno" />
+                    <hr />
+                    <span>Fecha Nacimiento</span>
+                    <input type="date" id="txbfechaNac" class="form-control" placeholder="Fecha Nacimiento" />
+                    <hr />
+
+
+                </div>
+                <div class="row">
+                    <input type="button" id="btnNext" value="Siguiente" class="btn btn-info" onclick="DataMedic()" style="float:right;margin-right:25px" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="secDataMedic">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <span style="font-weight:bold">Datos Médicos</span>
+                </div>
+                <div class="card-body">
+                    <span>Tipo de sangre</span>
+                    <input type="text" id="txbSangre" class="form-control" placeholder="Tipo de Sandre" />
+                    <hr />
+                    <span>Alergias</span>
+                    <select id="selAlergias" class="form-control">
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                    </select>
+                    <hr />
+                    <span>Alergias Medicas</span>
+                    <select id="selMedicas" class="form-control">
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                    </select>
+                    <hr />
+                    <span>Enfermedades</span>
+                    <input type="text" id="txbEnfermedades" class="form-control" placeholder="Enfermedades" />
+                    <hr />
+                    <span>Cirugias</span>
+                    <select id="selCirugias" class="form-control">
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                    </select>
+                    <hr />
+                    <span>Toma médicamento</span>
+                    <select id="selTomaMed" class="form-control">
+                        <option value="Si">Si</option>
+                        <option value="No">No</option>
+                    </select>
+                    <hr />
+                    <span>Medicamentos</span>
+                    <input type="text" class="form-control" placeholder="Medicamentos" id="txbMedicamento" />
+                </div>
+                <div>
+                    <input type="button" id="btnNextMed" class="btn btn-info" style="float:right;margin-right:25px" value="Siguiente" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<input type="hidden" id="txbId" value="@Session["Id"]" />
+
+@section scripts{
+    <script src="@Url.Content("~/Scripts/View/Usuarios_obtener.js")" type="text/javascript"></script>
+}

@@ -1,0 +1,5 @@
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaModelos\bin\Release\CapaModelos.dll
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaModelos\bin\Release\CapaModelos.pdb
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaModelos\obj\Release\CapaModelos.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaModelos\obj\Release\CapaModelos.dll
+C:\Users\Alejandro\source\repos infovitel\WEBInfovitel\WebInfovitel\CapaModelos\obj\Release\CapaModelos.pdb
